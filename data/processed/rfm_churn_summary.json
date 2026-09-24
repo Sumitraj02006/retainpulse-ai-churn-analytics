@@ -1,0 +1,59 @@
+{
+  "snapshot_date": "2011-08-31",
+  "observation_transaction_rows": 224036,
+  "future_transaction_rows": 149526,
+  "eligible_customers": 1765,
+  "rfm_score_distribution": {
+    "3": 59,
+    "4": 126,
+    "5": 142,
+    "6": 175,
+    "7": 153,
+    "8": 169,
+    "9": 164,
+    "10": 165,
+    "11": 126,
+    "12": 128,
+    "13": 113,
+    "14": 113,
+    "15": 132
+  },
+  "rfm_segment_counts": {
+    "Lower Value": 502,
+    "Medium Value": 486,
+    "High Value": 419,
+    "Very High Value": 358
+  },
+  "churn_90d": {
+    "class_0_count": 1275,
+    "class_1_count": 490,
+    "class_0_pct": 72.238,
+    "class_1_pct": 27.762
+  },
+  "rfm_feature_summary": {
+    "Recency": {
+      "min": 0.0,
+      "max": 236.0,
+      "mean": 54.88,
+      "median": 40.0
+    },
+    "Frequency": {
+      "min": 2.0,
+      "max": 127.0,
+      "mean": 5.45,
+      "median": 4.0
+    },
+    "Monetary": {
+      "min": 21.31,
+      "max": 176355.94,
+      "mean": 2555.49,
+      "median": 1132.62
+    },
+    "RFM_Score": {
+      "min": 3.0,
+      "max": 15.0,
+      "mean": 9.03,
+      "median": 9.0
+    }
+  }
+}

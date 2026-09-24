@@ -1,0 +1,22 @@
+{
+  "raw_rows": 541909,
+  "raw_columns": 8,
+  "duplicate_rows": 5268,
+  "missing_customer_id": 135080,
+  "missing_description": 1454,
+  "cancellation_rows": 9288,
+  "non_positive_quantity_rows": 10624,
+  "non_positive_unit_price_rows": 2517,
+  "negative_quantity_rows": 10624,
+  "zero_quantity_rows": 0,
+  "negative_unit_price_rows": 2,
+  "zero_unit_price_rows": 2515,
+  "date_min": "2010-12-01",
+  "date_max": "2011-12-09",
+  "unique_invoices": 25900,
+  "unique_products": 4070,
+  "unique_customers": 4372,
+  "country_count": 38,
+  "qualified_rows": 392692,
+  "qualified_customers": 4338
+}

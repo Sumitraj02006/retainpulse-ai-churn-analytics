@@ -1,0 +1,124 @@
+{
+  "train_size": 1412,
+  "test_size": 353,
+  "class_counts": {
+    "train": {
+      "0": 1020,
+      "1": 392
+    },
+    "test": {
+      "0": 255,
+      "1": 98
+    }
+  },
+  "accuracy": 0.586402,
+  "precision": 0.37234,
+  "recall": 0.714286,
+  "f1": 0.48951,
+  "roc_auc": 0.706323,
+  "pr_auc": 0.468561,
+  "default_threshold": 0.5,
+  "threshold_analysis": [
+    {
+      "threshold": 0.2,
+      "precision": 0.32971,
+      "recall": 0.928571,
+      "f1": 0.486631
+    },
+    {
+      "threshold": 0.25,
+      "precision": 0.330798,
+      "recall": 0.887755,
+      "f1": 0.481994
+    },
+    {
+      "threshold": 0.3,
+      "precision": 0.338583,
+      "recall": 0.877551,
+      "f1": 0.488636
+    },
+    {
+      "threshold": 0.35,
+      "precision": 0.352941,
+      "recall": 0.857143,
+      "f1": 0.5
+    },
+    {
+      "threshold": 0.4,
+      "precision": 0.351111,
+      "recall": 0.806122,
+      "f1": 0.489164
+    },
+    {
+      "threshold": 0.45,
+      "precision": 0.362319,
+      "recall": 0.765306,
+      "f1": 0.491803
+    },
+    {
+      "threshold": 0.5,
+      "precision": 0.37234,
+      "recall": 0.714286,
+      "f1": 0.48951
+    },
+    {
+      "threshold": 0.55,
+      "precision": 0.406061,
+      "recall": 0.683673,
+      "f1": 0.509506
+    },
+    {
+      "threshold": 0.6,
+      "precision": 0.438462,
+      "recall": 0.581633,
+      "f1": 0.5
+    }
+  ],
+  "feature_coefficients": [
+    {
+      "feature": "ActiveMonths",
+      "coefficient": -0.789998,
+      "abs_coefficient": 0.789998
+    },
+    {
+      "feature": "Frequency",
+      "coefficient": -0.774142,
+      "abs_coefficient": 0.774142
+    },
+    {
+      "feature": "TotalItems",
+      "coefficient": -0.768869,
+      "abs_coefficient": 0.768869
+    },
+    {
+      "feature": "UniqueProducts",
+      "coefficient": -0.41015,
+      "abs_coefficient": 0.41015
+    },
+    {
+      "feature": "Monetary",
+      "coefficient": 0.374441,
+      "abs_coefficient": 0.374441
+    },
+    {
+      "feature": "Recency",
+      "coefficient": 0.13199,
+      "abs_coefficient": 0.13199
+    },
+    {
+      "feature": "TenureDays",
+      "coefficient": 0.122682,
+      "abs_coefficient": 0.122682
+    },
+    {
+      "feature": "PurchaseSpanDays",
+      "coefficient": 0.006174,
+      "abs_coefficient": 0.006174
+    },
+    {
+      "feature": "AvgOrderValue",
+      "coefficient": -0.002792,
+      "abs_coefficient": 0.002792
+    }
+  ]
+}

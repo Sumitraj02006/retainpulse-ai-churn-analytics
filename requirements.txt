@@ -1,0 +1,13 @@
+# RetainPulse AI — Dependency Requirements
+# IBM SkillsBuild & IBM Bob Internship 2026 — Sumit Raj
+
+pandas==3.0.6
+numpy==2.5.3
+openpyxl==3.1.5
+scikit-learn==1.9.1
+matplotlib==3.11.2
+plotly==7.1.0
+streamlit==1.64.0
+joblib==1.6.0
+jupyter==1.1.1
+pytest==9.1.1
